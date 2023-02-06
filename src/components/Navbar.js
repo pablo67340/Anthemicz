@@ -28,7 +28,7 @@ const Navbar = () => {
             <span />
           </button>
         </div>
-        <ul id="navMenu" className={` navbar-start has-text-centered navbar-menu ${isActive && "is-active"}`}>
+        <ul id="navMenu" className={` navbar-end has-text-centered navbar-menu ${isActive && "is-active"}`}>
             {/* TODO: inline override of padding is a result of refactoring
                 to a ul for accessibilty purposes, would like to see a css
                 re-write that makes this unneccesary.
@@ -58,18 +58,6 @@ const Navbar = () => {
               Form Examples
             </Link>
             </li>
-          <li className="navbar-end has-text-centered">
-            <a
-              className="navbar-item"
-              href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="icon">
-                <img src={github} alt="Github" />
-              </span>
-            </a>
-          </li>
         </ul>
       </div>
     </nav>

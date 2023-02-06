@@ -25,12 +25,6 @@ const BlogRollTemplate = (props) => {
                       imageInfo={{
                         image: post.frontmatter.featuredimage,
                         alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        width:
-                          post.frontmatter.featuredimage.childImageSharp
-                            .gatsbyImageData.width,
-                        height:
-                          post.frontmatter.featuredimage.childImageSharp
-                            .gatsbyImageData.height,
                       }}
                     />
                   </div>
@@ -93,16 +87,7 @@ export default function BlogRoll() {
                   templateKey
                   date(formatString: "MMMM DD, YYYY")
                   featuredpost
-                  featuredimage {
-                    childImageSharp {
-                      gatsbyImageData(
-                        width: 120
-                        quality: 100
-                        layout: CONSTRAINED
-                      )
-
-                    }
-                  }
+                  featuredimage
                 }
               }
             }
