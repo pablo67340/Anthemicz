@@ -1,8 +1,8 @@
+import "../scss/_global.scss";
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import "../scss/_global.scss";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 

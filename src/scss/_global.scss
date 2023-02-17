@@ -1,1 +1,19 @@
-@import "~bulma"
+@import '~bulma/bulma';
+
+@font-face {
+    font-family: 'Druk';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url(/fonts/DrukText-Medium.ttf) format("ttf");
+  }
+
+  @font-face {
+    font-family: 'ParaType';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url(/fonts/ParaType.otf) format("otf");
+  }

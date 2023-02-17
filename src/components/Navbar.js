@@ -1,63 +1,55 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
+import logo from "../img/logo.png";
+import "../scss/components/navbar.scss";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <nav
-      className="navbar is-transparent"
-      role="navigation"
-      aria-label="main-navigation"
-    >
+    <nav className="navbar nav-override" role="navigation" aria-label="main-navigation">
       <div className="container">
-        <div className="navbar-brand">
+        <div className="navbar-brand nav-brand-override">
           <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+            <img src={logo} alt="Anthemicz" className="nav-logo" />
           </Link>
-          {/* Hamburger menu */}
-          <button
-            className={`navbar-burger burger ${isActive && "is-active"}`}
-            aria-expanded={isActive}
-            onClick={() => setIsActive(!isActive)}
-          >
+          <button className={`navbar-burger burger ${isActive && "is-active"}`} aria-expanded={isActive}  onClick={() => setIsActive(!isActive)}>
             <span />
             <span />
             <span />
           </button>
         </div>
-        <ul id="navMenu" className={` navbar-end has-text-centered navbar-menu ${isActive && "is-active"}`}>
-            {/* TODO: inline override of padding is a result of refactoring
-                to a ul for accessibilty purposes, would like to see a css
-                re-write that makes this unneccesary.
-             */}
-            <li className="navbar-item" style={{padding: "0px"}}>
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/products">
-              Products
+        <ul id="navMenu" className={` navbar-end has-text-centered navbar-menu ${isActive && "is-active"} nav-menu-override`}>
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <Link className="navbar-item navbar-item-override" to="/meet-us">
+              MEET US
             </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/blog">
-              Blog
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <Link className="navbar-item navbar-item-override" to="/products">
+              OUR MISSION
             </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/contact">
-              Contact
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <Link className="navbar-item navbar-item-override" to="/blog">
+              OUR PASSION
             </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/contact/examples">
-              Form Examples
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <Link className="navbar-item navbar-item-override" to="/contact">
+              STORIES
             </Link>
-            </li>
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <Link className="navbar-item navbar-item-override" to="/contact">
+              REACH OUT
+            </Link>
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <Link className="navbar-item merch-button" to="/contact/examples">
+              MERCH
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

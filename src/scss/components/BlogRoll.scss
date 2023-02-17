@@ -1,0 +1,22 @@
+.blog-thumb{
+    display: flex;
+    justify-content: center;
+}
+
+.blog-title{
+    color: #F87888 !important;
+    transition: all 150ms ease-in-out;
+
+    &:hover{
+        color: #F7B454 !important;
+    }
+}
+
+.blog-header{
+    text-align: center;
+}
+
+.post-meta{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}

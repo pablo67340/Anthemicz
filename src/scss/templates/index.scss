@@ -1,0 +1,222 @@
+.gradient-background {
+  background: linear-gradient(265deg, #5cd0df, #f8b454, #f86599);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+
+  width: 100%;
+  height: 35vw;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.meet-the-team {
+  position: relative;
+
+  .meet-holder {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 2rem;
+    position: absolute;
+    top: -125px;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+
+    .slider-holder{
+      width: 90%;
+      margin-left: auto;
+    }
+
+    .meet-title {
+      color: white;
+      font-size: 28px;
+      font-family: "Druk";
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+
+    .meet-button {
+      background-color: #F86599;
+      color: white;
+      border-radius: 2px;
+      padding: 10px 30px 10px 30px;
+      font-size: 20px;
+      font-weight: 600;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      transition: all 250ms ease-in-out;
+      &:hover{
+        background-color: #fa4f8b;
+      }
+    }
+  }
+}
+
+.we-are {
+  padding-top: 2rem;
+
+  @media all and (max-width: 769px){
+    padding-top: 4rem;
+  }
+
+  .we-are-holder {
+    .we-are-text-holder {
+      font-family: "Druk";
+      text-align: right;
+      padding-right: 10rem;
+
+      @media all and (max-width: 769px){
+        padding-right: 2rem;
+        padding-left: 2rem;
+        text-align: center;
+      }
+
+      .we-grey {
+        font-size: 73px;
+
+        @media all and (max-width: 769px){
+          font-size: 55px;
+          line-height: 46px;
+        }
+      }
+
+      .we-blue {
+        color: #40B1C7;
+        font-size: 60px;
+
+        @media all and (max-width: 769px){
+          font-size: 50px;
+          padding-bottom: 1rem;
+        }
+
+        .we-red {
+          color: #F86194;
+        }
+
+        .we-gold {
+          color: #F7BC59;
+        }
+      }
+
+      .we-para {
+        font-weight: 500;
+        font-size: 20px;
+        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+        @media all and (max-width: 769px){
+          font-size: 19px;
+        }
+      }
+
+    }
+  }
+}
+
+.statements {
+  .statements-holder {
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    .statements-header {
+      font-family: "Druk";
+      color: #363636;
+      font-size: 30px;
+      padding-bottom: 4rem;
+      padding-top: 4rem;
+    }
+
+    .statements-text {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      font-weight: 400;
+
+      h2{
+        font-size: 25px;
+        padding-top: 1rem;
+        font-weight: 600;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+
+    .statements-red {
+      background-color: #F680B4;
+    }
+
+    .statements-gold {
+      background-color: #F6C25D;
+    }
+
+    .statements-blue {
+      background-color: #62D1ED;
+    }
+
+    .statements-grey {
+      background-color: #C2C2C2;
+    }
+  }
+}
+.merch{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  .merch-holder{
+    .merch-text{
+      padding-top: 6rem;
+      padding-right: 23rem;
+      padding-left: 6rem;
+      @media all and (max-width: 769px){
+        padding-right: 9rem;
+      }
+      p{
+        font-size: 28px;
+        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        
+      }
+      a{
+        display: block;
+        font-size: 27px;
+        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      }
+    }
+    .merch-col{
+      h2{
+        font-size: 31px;
+        font-family: "Druk";
+        color: #363636;
+        padding-bottom: 1rem;
+      }
+      .merch-pink{
+        color: #ED729B;
+      }
+      .merch-gold{
+        color: #F5BE54;
+      }
+      .merch-blue{
+        color: #73D5EE;
+      }
+      .merch-red{
+        color: #D23C3C;
+      }
+    }
+  }
+}
