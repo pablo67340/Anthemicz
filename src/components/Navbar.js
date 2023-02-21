@@ -13,7 +13,7 @@ const Navbar = () => {
           <Link to="/" className="navbar-item" title="Logo">
             <img src={logo} alt="Anthemicz" className="nav-logo" />
           </Link>
-          <button className={`navbar-burger burger ${isActive && "is-active"}`} aria-expanded={isActive}  onClick={() => setIsActive(!isActive)}>
+          <button className={`navbar-burger burger ${isActive && "is-active"}`} aria-expanded={isActive} onClick={() => setIsActive(!isActive)}>
             <span />
             <span />
             <span />
@@ -31,15 +31,32 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item navbar-item-override" to="/blog">
-              OUR PASSION
-            </Link>
-          </li>
-          <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item navbar-item-override" to="/contact">
-              STORIES
+              MUSIC
             </Link>
           </li>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link navbar-item-override">
+              FOLLOW US
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                Instagram
+              </a>
+              <a class="navbar-item">
+                TikTok
+              </a>
+              <a class="navbar-item">
+                YouTube
+              </a>
+              <hr class="navbar-divider" />
+              <a class="navbar-item">
+                Report an issue
+              </a>
+            </div>
+          </div>
+
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item navbar-item-override" to="/contact">
               REACH OUT
