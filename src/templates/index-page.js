@@ -15,7 +15,7 @@ export const IndexPageTemplate = () => {
 const IndexPage = () => {
 
   return (
-    <Layout>
+    <Layout hasFooter={true} hasNav={true}>
       <IndexPageTemplate/>
     </Layout>
   );

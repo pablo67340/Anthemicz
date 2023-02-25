@@ -31,7 +31,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item navbar-item-override" to="/contact">
+            <Link className="navbar-item navbar-item-override" to="/music">
               MUSIC
             </Link>
           </li>
@@ -54,12 +54,12 @@ const Navbar = () => {
           </div>
 
           <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item navbar-item-override" to="/contact">
+            <Link className="navbar-item navbar-item-override" to="/reach-out">
               REACH OUT
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item merch-button" to="/contact/examples">
+            <Link className="navbar-item merch-button" to="https://merch.anthemicz.com/">
               MERCH
             </Link>
           </li>

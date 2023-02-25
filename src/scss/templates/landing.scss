@@ -4,6 +4,10 @@
     font-family: "Druk";
     color: white;
 
+    background-image: url("/img/bg.png");
+    background-size: cover;
+
+
     .tile {
         border-radius: 0;
     }
@@ -45,7 +49,13 @@
         background-color: #FF66C4;
         .tile-4-wrapper{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 2rem;
+            
+            p{
+                margin-bottom: 0;
+            }
         }
     }
 

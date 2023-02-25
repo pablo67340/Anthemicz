@@ -24,9 +24,9 @@ export default class Landing extends React.Component {
       alt: "Haley",
     },
     {
-      src: "/img/covers/yaz.jpg",
-      caption: "Yaz",
-      alt: "Yaz",
+      src: "/img/covers/matrell.jpg",
+      caption: "Matrell",
+      alt: "Matrell",
     },
     {
       src: "/img/covers/jireh.jpg",
@@ -37,6 +37,11 @@ export default class Landing extends React.Component {
       src: "/img/covers/matrell.jpg",
       caption: "Matrell",
       alt: "Matrell",
+    },
+    {
+      src: "/img/covers/haley.jpg",
+      caption: "Haley",
+      alt: "Haley",
     },
   ];
 
@@ -83,26 +88,22 @@ export default class Landing extends React.Component {
                   <article className="tile-4">
                     <div className="tile-4-wrapper">
                       <div className="tile-4-holder">
-                        <p className="title">Wide tile</p>
-                        <p className="subtitle">Aligned with the right tile</p>
+                        <p className="title">LOREM</p>
                         <div className="content">
                         </div>
                       </div>
                       <div className="tile-4-holder">
-                        <p className="title">Press</p>
-                        <p className="subtitle">Aligned with the right tile</p>
+                        <p className="title">PRESS</p>
                         <div className="content">
                         </div>
                       </div>
                       <div className="tile-4-holder">
-                        <p className="title">Videos</p>
-                        <p className="subtitle">Aligned with the right tile</p>
+                        <p className="title">VIDEOS</p>
                         <div className="content">
                         </div>
                       </div>
                       <div className="tile-4-holder">
-                        <p className="title">Merch</p>
-                        <p className="subtitle">Aligned with the right tile</p>
+                        <p className="title">MERCH</p>
                         <div className="content">
                         </div>
                       </div>

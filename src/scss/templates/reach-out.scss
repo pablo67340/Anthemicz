@@ -1,0 +1,66 @@
+.contact-bg {
+    position: relative;
+    padding: 0;
+    background-color: #F5BE54;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -10rem;
+        z-index: 1;
+    }
+
+    .contact-holder {
+        z-index: 999;
+        position: relative;
+
+        .contact-container {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            width: 40%;
+
+            .content {
+                padding: 2rem;
+                background-color: white;
+                border-radius: 2rem;
+
+                h1{
+                    color: #FF66C4;
+                    font-family: "Druk";
+                    text-align: center;
+                    padding-bottom: 1rem;
+                }
+
+                input{
+                    border-radius: 12px;
+                }
+
+                .textarea {
+                    resize: none;
+                    margin-top: 1.4rem;
+                    border-radius: 12px;
+                }
+
+                .txt-addy {
+                    margin-top: 0.6rem;
+                    border-radius: 12px;
+                }
+            }
+        }
+
+        .button-holder {
+            display: flex;
+            justify-content: center;
+            padding-top: 1rem;
+
+            button {
+                border-radius: 25px;
+                font-size: 20px;
+                font-family: "Druk";
+                padding-right: 2rem;
+                padding-left: 2rem;
+            }
+        }
+    }
+}

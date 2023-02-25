@@ -39,7 +39,7 @@ export default class Index extends React.Component {
 
   render() {
     return (
-      <Layout hasNav={true} hasFooter={false}>
+      <Layout hasNav={true} hasFooter={true}>
         <section className="masthead">
           <div className="gradient-background"></div>
         </section>
@@ -68,7 +68,7 @@ export default class Index extends React.Component {
                 </div>
               </Slider>
             </div>
-            <Link className="meet-button" to="/contact/examples">
+            <Link className="meet-button" to="/meet-us">
               meet all of us
             </Link>
           </div>
