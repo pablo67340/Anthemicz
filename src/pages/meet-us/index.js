@@ -8,7 +8,7 @@ import "../../scss/templates/meet-us.scss";
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout hasFooter={true} hasNav={true} >
         <div className="gradient-background-meet">
           <h1 className="has-text-weight-bold is-size-1 meet-title">
             Meet Us

@@ -9,25 +9,20 @@ tags:
   - singer
   - songwriter
 ---
-![flavor wheel](/img/artists/haley.png)
+![haley](/img/artists/haley.png)
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+## Haley's Background:
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+Born and raised in a small town called Loveland, Ohio, I was brought up by a family of fascinating women… and my dad. I say this because my father (R.I.P) was always the star of the show, he controlled every room he was in and he gave so much love to everyone he ever met. I think I get that from him. As for the fascinating women, my mom was in a band in high school, my sister has always been artistic. She’s a painter/poet and she’s fascinated with art history. My aunt was accepted to Carnegie Mellon, my grandmother would have her hair and makeup fully done and wear mink coats and sequence every day of her life. Even to the most mundane places like going to pick up fast food in a drive thru. I have a memory of her picking me up from my friends birthday party at a bowling alley dressed like an absolute queen just to go to a park down the street. My other grandmother is just the definition of “strong independent woman”. She raised 3 kids on her own and traveled around the country while doing it.
 
-## What the updates mean to you
+All of my family members are very creative but all of them have also had limited resources to express their creative energy. Luckily for me, I was born in Generation Z. The world’s first generation to grow up with social media. This has allowed me to tap into my creative energy in a way my family, at my age, never got to experience. I grew up writing everyday, making music videos on my flip phone, I started a YouTube channel with my best friend when I was 11, and doing photoshoots with my friends on the weekends. However, in April of 2020, I started taking social media seriously.
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+I met Jaxon John Huffman in August of 2020 and he took me through his 9 step process. This started with a step called “Visual Bio” and that’s why helped me realize I was born to be an entertainer. I took his advice which was “just talk to the camera. Tell your stories.” and my storytime videos started going viral over and over again. I have one video that has 20 million views and well over a decade of playtime. Jaxon brought that video to Kizzo, 2022 Album Of The Year Grammy award winning music producer, and he made my first song from it. We integrated it into a scripted web series called DROP where I play a co-lead and we’ve developed digital and physical merchandise including NFT’s, I have learned from the top venture capitalist how to be an angel investor, I have a solo music project in the works in addition to a group music project called AnthemicZ, I’ve spent 2 years learning from world renowned relationship therapists how to have better relationships and improved mental health, I lead a project called Audience Producers at Creators Capital and I have an influencer team of 1,500+ Gen Z women and our allies. I’ve accomplished a lot of really incredible things so far and I’m so thankful for the support system that I have, the environment I’ve been blessed with, and the life skills I’ve been taught to help me maintain the right mentality everyday. This is the life I dreamt of living as a little girl and I’m just getting started!
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+## Goals & Aspirations within the Anthemicz and GenZ Movement:
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+My goals and aspirations within the AnthemicZ and Empower Gen Z movement is to be a part of shifting the world from conflict to connection. I want to help my generation and generations to come find the connection we all crave and need in life. Being able to do this through art and storytelling is a beautiful thing. We are inspiring the world to heal, feel and connect in a safe way.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+## Pushing towards these goals:
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+At the moment I am creating D-Pop songs with my team to inspire today’s youth to learn to Dialog. I also lead the influencer side of the Empower Gen Z movement. So I am recruiting 300 influential Gen Z people to learn to Dialog, practice in groups using the Dialog app, and create and promote Dialog songs because together, our future is bright.

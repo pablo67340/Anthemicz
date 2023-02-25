@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import "../scss/templates/blog-post.scss";
 
 // eslint-disable-next-line
 export const BlogPostTemplate = ({
@@ -18,9 +19,9 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
+    <section className="section blog-page-holder">
       {helmet || ""}
-      <div className="container content">
+      <div className="container content content-holder">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
@@ -59,7 +60,7 @@ const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout hasFooter={true} hasNav={true}>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}

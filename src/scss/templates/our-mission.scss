@@ -1,0 +1,106 @@
+.gradient-mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: white;
+    font-family: "Druk";
+    font-size: 35px;
+
+    img {
+        width: 25%;
+    }
+}
+
+.help-gen {
+    padding: 5rem;
+    background-color: #D3CDC2;
+
+    .col-inner {
+        background-color: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        font-family: "Druk";
+    }
+
+    .left-col {
+        .col-inner {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            position: relative;
+
+            img {
+                width: 12%;
+                position: absolute;
+                right: 4%;
+                top: 5%;
+            }
+
+            .pink {
+                color: #ED729B;
+            }
+
+            h2 {
+                font-size: 45px;
+            }
+
+            p {
+                font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                padding-top: 3rem;
+                padding-right: 3rem;
+                padding-left: 3rem;
+                font-size: 22px;
+                padding-bottom: 2rem;
+            }
+        }
+
+    }
+
+    .right-col {
+        .col-inner{
+            transition: all 150ms ease-in-out;
+            .hidden{
+                display: none;
+            }
+            
+            .active{
+                display: block;
+            }
+
+            .selector-holder{
+                cursor: pointer;
+                color: #00C2DE;
+                font-size: 25px;
+                background-color: #F5F5F5;
+                position: relative;
+                transition: all 150ms ease-in-out;
+                padding: 1rem;
+                margin-bottom: 1rem;
+
+                .flipped{
+                    transition: all 150ms ease-in-out;
+                    transform: rotate(180deg);
+                }
+
+                .unflipped{
+                    transform: rotate(180deg);
+                }
+
+                img{
+                    position: absolute;
+                    right: 1rem;
+                    top: 29%;
+                    transform: rotate(0deg);
+                }
+            }
+
+            .selector-dropdown{
+                font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                padding: 1rem;
+                font-size: 18px;
+                background-color: #fffdfd;
+            }
+        }
+    }
+}

@@ -1,19 +1,56 @@
-.tile-holder{
+.tile-holder {
     padding: 3rem;
 
-    .tile{
+    font-family: "Druk";
+    color: white;
+
+    .tile {
         border-radius: 0;
     }
 
-    .tile-1{
+    .tile-1 {
         background-color: #AB23FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        position: relative;
+
+        .music-logo{
+            width: 42%;
+        }
+
+        .az-logo{
+            width: 25%;
+            position: absolute;
+            top: 22%;
+            left: 15%;
+        }
     }
 
-    .tile-2{
+    .tile-2 {
         background-color: #38B6FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        position: relative;
+        
+        img{
+            width: 25%;
+        }
     }
 
-    .tile-4{
+    .tile-4 {
         background-color: #FF66C4;
+        .tile-4-wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .tile-5{
+        padding: 3rem;
     }
 }
+

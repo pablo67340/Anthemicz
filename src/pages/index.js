@@ -7,6 +7,7 @@ import melle from "../img/artists/mel.png";
 import haley from "../img/artists/haley.png";
 import jireh from "../img/artists/jireh.png";
 import nauz from "../img/artists/nauz.png";
+import yaz from "../img/artists/yaz.png";
 import wave from "../img/wavy_bg_desktop.png";
 import collage from "../img/artsy_collage.png";
 
@@ -60,7 +61,7 @@ export default class Index extends React.Component {
                   <img src={nauz} alt="Nauz" />
                 </div>
                 <div>
-                  <img src={melle} alt="Melle Baby Music" />
+                  <img src={yaz} alt="Yaz" />
                 </div>
                 <div>
                   <img src={haley} alt="Haley" />

@@ -26,7 +26,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item navbar-item-override" to="/products">
+            <Link className="navbar-item navbar-item-override" to="/our-mission">
               OUR MISSION
             </Link>
           </li>
@@ -35,24 +35,20 @@ const Navbar = () => {
               MUSIC
             </Link>
           </li>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link navbar-item-override">
+          <div className="navbar-item has-dropdown is-hoverable">
+            <a className="navbar-link navbar-item-override">
               FOLLOW US
             </a>
 
-            <div class="navbar-dropdown">
-              <a class="navbar-item">
+            <div className="navbar-dropdown">
+              <a className="navbar-item">
                 Instagram
               </a>
-              <a class="navbar-item">
+              <a className="navbar-item">
                 TikTok
               </a>
-              <a class="navbar-item">
+              <a className="navbar-item">
                 YouTube
-              </a>
-              <hr class="navbar-divider" />
-              <a class="navbar-item">
-                Report an issue
               </a>
             </div>
           </div>

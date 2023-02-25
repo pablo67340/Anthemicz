@@ -9,25 +9,16 @@ tags:
   - singer
   - songwriter
 ---
-![flavor wheel](/img/artists/mel.png)
+![melle](/img/artists/mel.png)
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+## Melle's Background:
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+I grew up in a small town in Canada called Barrie with my amazing parents, Peter and Angelik, and my little brother Nauz. Barrie is a super musical place and I was hired by the city to street perform all throughout high school. I have struggled with my mental health since I was 10, but after meeting Jaxon when I was 15, he helped me realize I have a purpose in life. My purpose is to heal people through music. I now have an album produced by Grammy Award Winning Producer Kizzo, and over 2 million + followers and subscribers across all platforms.
 
-## What the updates mean to you
+## Goals & Aspirations within the Anthemicz and GenZ Movement:
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+My goals and aspirations within the Anthemicz and GenZ Movement is to help our generation have better relationships and improved mental health through our music. All of my friends growing up and today have struggled with their mental health, and I want to eliminate as much suffering as we can while also providing our generation with hope for a brighter future.
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+## Pushing towards these goals:
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
-
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
-
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+I am doing a lot of things to push towards these goals. One thing in particular, is connecting with my fans on my YouTube series called “SPLIT/SHEET TV: Songwriting With Everyone”. I ask my followers to tell their stories. We then take these stories and turn them into songs, which means the followers make the split sheet and create with us together forever. It’s a really great way to feel connected with my fans, while also showing them that it does get better.
