@@ -15,6 +15,8 @@ import hearts from "../img/icons/hearts.png";
 import connection from "../img/icons/connection.png";
 import friends from "../img/icons/friends.png";
 
+import masthead from "../img/masthead.jpg";
+
 import brand from "../img/brand_board.png";
 
 import Slider from "react-slick";
@@ -22,8 +24,8 @@ import Layout from "../components/Layout";
 import { Link, graphql } from "gatsby";
 
 // eslint-disable-next-line
-export const IndexPageTemplate = ({data}) => {
-  
+export const IndexPageTemplate = ({ data }) => {
+
   let settings = {
     dots: false,
     infinite: true,
@@ -36,11 +38,17 @@ export const IndexPageTemplate = ({data}) => {
   return (
     <div>
       <section className="masthead">
-        <div className="gradient-background"></div>
+        <div className="gradient-background">
+          <img src={masthead} alt="Masthead" />
+        </div>
       </section>
       <section className="meet-the-team">
-        <div className="meet-holder">
-          <h2 className="meet-title">{data.teamSection}</h2>
+        <div className="meet-holder">\
+          <div className="title-wrapper">
+            <div className="title-holder">
+              <h2 className="meet-title">{data.teamSection}</h2>
+            </div>
+          </div>
           <div className="slider-holder">
             <Slider {...settings}>
               <div>
@@ -80,11 +88,11 @@ export const IndexPageTemplate = ({data}) => {
               <div className="we-are-text-holder">
                 <p className="we-grey">we are</p>
                 <p className="we-blue">An<span className="we-red">the</span><span className="we-gold">micZ</span></p>
-                <p className="we-para">AnthemicZ are a diverse group of solo artists uniting to become the world's first metaverse supergroup empowering Generation Z with Dialog Songs, a new genre of music and edutainment experience.</p>
+                <p className="we-para">{data.aboutPara1}</p>
                 <br />
-                <p className="we-para">Dialog Songs help teens and young adults have better relationships, improved mental health and access to more success and joy in life.</p>
+                <p className="we-para">{data.aboutPara2}</p>
                 <br />
-                <p className="we-para">Using the power of Dialog Lessons and Dialog Songs, the AnthemicZ are creating a world where personal freedom, universal equality, total inclusion, celebration of diversity, safety for all and empathy for others is the value system that reigns supreme.</p>
+                <p className="we-para">{data.aboutPara3}</p>
               </div>
             </div>
           </div>
@@ -142,7 +150,7 @@ export const IndexPageTemplate = ({data}) => {
   );
 };
 
-const IndexPage = ({data}) => {
+const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
@@ -159,6 +167,9 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         teamSection
+        aboutPara1
+        aboutPara2
+        aboutPara3
       }
     }
   }

@@ -1,10 +1,8 @@
 .gradient-background {
-  background: linear-gradient(265deg, #5cd0df, #f8b454, #f86599);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-
+  background-image: url(/img/masthead.jpg);
   width: 100%;
   height: 35vw;
+  background-size: cover;
 }
 
 @keyframes gradient-animation {
@@ -23,6 +21,7 @@
 
 .meet-the-team {
   position: relative;
+  margin-top: 1rem;
 
   .meet-holder {
     display: flex;
@@ -34,9 +33,24 @@
     height: 100%;
     width: 100%;
 
-    .slider-holder{
+    .slider-holder {
       width: 90%;
       margin-left: auto;
+    }
+
+    .title-wrapper{
+      display: flex;
+      padding-bottom: 2rem;
+    }
+    .title-holder {
+      display: inherit;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgba(0,0,0,0.7);
+      padding: 0.5rem;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      border-radius: 7px;
     }
 
     .meet-title {
@@ -44,7 +58,6 @@
       font-size: 28px;
       font-family: "Druk";
       text-align: center;
-      padding-bottom: 2rem;
     }
 
     .meet-button {
@@ -58,7 +71,8 @@
       margin-right: auto;
       margin-top: 2rem;
       transition: all 250ms ease-in-out;
-      &:hover{
+
+      &:hover {
         background-color: #fa4f8b;
       }
     }
@@ -68,7 +82,7 @@
 .we-are {
   padding-top: 2rem;
 
-  @media all and (max-width: 769px){
+  @media all and (max-width: 769px) {
     padding-top: 4rem;
   }
 
@@ -78,7 +92,7 @@
       text-align: right;
       padding-right: 10rem;
 
-      @media all and (max-width: 769px){
+      @media all and (max-width: 769px) {
         padding-right: 2rem;
         padding-left: 2rem;
         text-align: center;
@@ -87,7 +101,7 @@
       .we-grey {
         font-size: 73px;
 
-        @media all and (max-width: 769px){
+        @media all and (max-width: 769px) {
           font-size: 55px;
           line-height: 46px;
         }
@@ -97,7 +111,7 @@
         color: #40B1C7;
         font-size: 60px;
 
-        @media all and (max-width: 769px){
+        @media all and (max-width: 769px) {
           font-size: 50px;
           padding-bottom: 1rem;
         }
@@ -116,7 +130,7 @@
         font-size: 20px;
         font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
-        @media all and (max-width: 769px){
+        @media all and (max-width: 769px) {
           font-size: 19px;
         }
       }
@@ -149,12 +163,13 @@
       font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
       font-weight: 400;
 
-      h2{
+      h2 {
         font-size: 25px;
         padding-top: 1rem;
         font-weight: 600;
       }
-      p{
+
+      p {
         font-size: 18px;
       }
     }
@@ -176,45 +191,55 @@
     }
   }
 }
-.merch{
+
+.merch {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  .merch-holder{
-    .merch-text{
+
+  .merch-holder {
+    .merch-text {
       padding-top: 6rem;
       padding-right: 23rem;
       padding-left: 6rem;
-      @media all and (max-width: 769px){
+
+      @media all and (max-width: 769px) {
         padding-right: 9rem;
       }
-      p{
+
+      p {
         font-size: 28px;
         font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-        
+
       }
-      a{
+
+      a {
         display: block;
         font-size: 27px;
         font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
       }
     }
-    .merch-col{
-      h2{
+
+    .merch-col {
+      h2 {
         font-size: 31px;
         font-family: "Druk";
         color: #363636;
         padding-bottom: 1rem;
       }
-      .merch-pink{
+
+      .merch-pink {
         color: #ED729B;
       }
-      .merch-gold{
+
+      .merch-gold {
         color: #F5BE54;
       }
-      .merch-blue{
+
+      .merch-blue {
         color: #73D5EE;
       }
-      .merch-red{
+
+      .merch-red {
         color: #D23C3C;
       }
     }
