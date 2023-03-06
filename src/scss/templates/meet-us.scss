@@ -1,36 +1,46 @@
 .gradient-background-meet {
-    background: linear-gradient(265deg, #5cd0df, #f8b454, #f86599);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  
-    width: 100%;
-    height: 15vw;
+  background-image: url(/img/masthead.jpg);
+  width: 100%;
+  height: 35vw;
+  background-size: cover;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media all and (max-width: 769px) {
+    height: 44vh;
+    background-position: center;
   }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
+
+  h1 {
+    @media all and (max-width: 769px) {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding-right: 2rem;
+      padding-left: 2rem;
+      border-radius: 19px;
     }
   }
+}
 
-  .meet-title{
-    text-align: center;
-    color: white;
-    font-family: "Druk";
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
 
-  .blog-holder{
-
+  50% {
+    background-position: 100% 50%;
   }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.meet-title {
+  text-align: center;
+  color: white;
+  font-family: "Druk";
+}
+
+.blog-holder {}

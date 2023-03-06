@@ -44,7 +44,7 @@ export default class OurMission extends React.Component {
 
                 <section className="help-gen">
                     <div className="columns is-multiline is-mobile">
-                        <div className="column is-half left-col">
+                        <div className="column is-half-desktop is-full-mobile left-col">
                             <div className="col-inner">
                                 <img src={azlogo} alt="Who we are" />
                                 <h2 className="pink">ABOUT US</h2>
@@ -55,7 +55,7 @@ export default class OurMission extends React.Component {
                             </div>
                         </div>
 
-                        <div className="column is-half right-col">
+                        <div className="column is-half-desktop is-full-mobile right-col">
                             <div className="col-inner">
                                 <div className="selector-holder selector-1" onClick={() => this.toggleDropdown(1)}>
                                     Consectetur ut non velit irure exercitation id veniam.

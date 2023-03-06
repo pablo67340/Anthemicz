@@ -103,22 +103,22 @@ export const IndexPageTemplate = ({ data }) => {
         <div className="statements-holder">
           <h2 className="statements-header">SONG STATEMENTS</h2>
           <div className="columns is-multiline is-mobile">
-            <div className="column is-one-quarter-desktop is-half-mobile statements-red statements-text">
+            <div className="column is-one-quarter-desktop is-full-mobile statements-red statements-text">
               <img src={heart} alt="Heart" />
               <h2>Romantic</h2>
               <p>Romantic, is an upbeat pop smash about the first stage of love, the Romantic Stage. Romantic sounds like your favorite romcom turned into song with the awareness of how to get the happy ending everyone is looking for.</p>
             </div>
-            <div className="column is-one-quarter-desktop is-half-mobile statements-gold statements-text">
+            <div className="column is-one-quarter-desktop is-full-mobile statements-gold statements-text">
               <img src={connection} alt="Connection" />
               <h2>Connection</h2>
               <p>Connection, is a powerful pop song about the importance of connecting with people you care about. Connection sounds like a mix of modern r&b and pop but with a hopeful message to leave you feeling grateful for those around you.</p>
             </div>
-            <div className="column is-one-quarter-desktop is-half-mobile statements-blue statements-text">
+            <div className="column is-one-quarter-desktop is-full-mobile statements-blue statements-text">
               <img src={friends} alt="Friends" />
               <h2>Friends</h2>
               <p>That's What Friends Are For, is an upbreat friendship anthem about appreciating true friendship. That's What Friends Are For sounds like a catchy feel good song with a welcoming melody that makes you want to surround yourself with the people you care for.</p>
             </div>
-            <div className="column is-one-quarter-desktop is-half-mobile statements-grey statements-text">
+            <div className="column is-one-quarter-desktop is-full-mobile statements-grey statements-text">
               <img src={hearts} alt="Hearts" />
               <h2>Unconditional Love</h2>
               <p>Unconditional Love, is a soulful D-pop hit about the third and final stage of love, Real Love. Unconditional Love sounds like sweet pop ballad but with a compelling message that will make you want to give and receive unconditional love.</p>

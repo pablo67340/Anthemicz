@@ -6,4 +6,10 @@
         padding: 4rem 0rem;
         border-radius: 5rem;
     }
+
+    .blog-override{
+        @media all and (max-width: 769px){
+            padding: 2rem;
+        }
+    }
 }

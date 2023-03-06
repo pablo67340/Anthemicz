@@ -6,15 +6,38 @@
     color: white;
     font-family: "Druk";
     font-size: 35px;
+    
+    @media all and (max-width: 769px) {
+        height: 44vh;
+        background-position: center;
+      }
 
     img {
         width: 25%;
+
+        @media all and (max-width: 769px){
+            display: none;
+        }
     }
+
+    h2 {
+        @media all and (max-width: 769px) {
+          background-color: rgba(0, 0, 0, 0.6);
+          padding-right: 2rem;
+          padding-left: 2rem;
+          border-radius: 19px;
+          padding-top: 0.4rem;
+        }
+      }
 }
 
 .help-gen {
     padding: 5rem;
     background-color: #D3CDC2;
+
+    @media all and (max-width: 769px){
+        padding: 2rem;
+    }
 
     .col-inner {
         background-color: white;
@@ -52,6 +75,11 @@
                 padding-left: 3rem;
                 font-size: 22px;
                 padding-bottom: 2rem;
+
+                @media all and (max-width: 769px){
+                    padding-right: 1rem;
+                    padding-left: 1rem;
+                }
             }
         }
 
@@ -78,6 +106,10 @@
                 padding: 1rem;
                 margin-bottom: 1rem;
 
+                @media all and (max-width: 769px){
+                    font-size: 17px;
+                }
+
                 .flipped{
                     transition: all 150ms ease-in-out;
                     transform: rotate(180deg);
@@ -92,6 +124,10 @@
                     right: 1rem;
                     top: 29%;
                     transform: rotate(0deg);
+
+                    @media all and (max-width: 769px){
+                        width: 9%;
+                    }
                 }
             }
 

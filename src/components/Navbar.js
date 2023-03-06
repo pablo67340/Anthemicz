@@ -36,7 +36,7 @@ const Navbar = () => {
             </Link>
           </li>
           <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link navbar-item-override">
+            <a className="navbar-link navbar-item-override nav-dropdown-override">
               FOLLOW US
             </a>
 

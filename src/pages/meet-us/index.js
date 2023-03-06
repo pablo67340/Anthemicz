@@ -11,7 +11,7 @@ export default class BlogIndexPage extends React.Component {
       <Layout hasFooter={true} hasNav={true} >
         <div className="gradient-background-meet">
           <h1 className="has-text-weight-bold is-size-1 meet-title">
-            Meet Us
+            MEET US
           </h1>
         </div>
         <section className="section">

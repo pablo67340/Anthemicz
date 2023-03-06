@@ -16,14 +16,25 @@
 .nav-logo{
     width: 10rem;
     max-height: none !important;
+
+    @media all and (max-width: 769px){
+        width: 8rem;
+    }
 }
 
 .nav-brand-override{
     margin-left: -16.75rem !important;
+
+    @media all and (max-width: 769px){
+        margin-left: auto !important;
+    }
 }
 
 .nav-override{
     min-height: 6.25rem;
+    @media all and (max-width: 769px){
+        min-height: auto;
+    }
 }
 
 .navbar-item-override{
@@ -37,4 +48,14 @@
 
 .nav-menu-override{
     margin-right: -15.75rem !important;
+
+    @media all and (max-width: 769px){
+        margin-right: auto !important;
+    }
+}
+
+.nav-dropdown-override{
+    @media all and (max-width: 769px){
+        padding-right: 0.5rem !important;
+    }
 }

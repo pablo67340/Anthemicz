@@ -83,7 +83,7 @@
   padding-top: 2rem;
 
   @media all and (max-width: 769px) {
-    padding-top: 4rem;
+    padding-top: 5rem;
   }
 
   .we-are-holder {
@@ -203,7 +203,9 @@
       padding-left: 6rem;
 
       @media all and (max-width: 769px) {
-        padding-right: 9rem;
+        padding-right: 5rem;
+        padding-top: 2rem;
+        padding-left: 3rem;
       }
 
       p {
